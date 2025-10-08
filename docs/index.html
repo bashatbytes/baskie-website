@@ -6,7 +6,7 @@
   -->
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Baskie the Basking Shark</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <style>
@@ -16,45 +16,40 @@
         color: #e3d5ba;      
       }
       header {
-        position: fixed;
-        top: 1em;
-        left: 0;
-        right: 0;
-        width: 44em;
-        margin: 0 auto;
-        padding: 2em 3em;
+        max-width: 44em;
+        margin-top: 1%;
+        padding: 2%;
+        margin: 1% auto;
         background-color: rgba(45, 45, 45, 0.8);
         border-top: 0.5em solid #e3d5ba;
       }
       h1 {
-        margin: 0; 
-        font-size: 3em;
-        line-height: 1.5em;
+        font-size: 2.5em;
+        margin: 0;
       }
       blockquote {
-        margin: 0;
-        margin-bottom: 3em;
-        font-size: 1.6em;
+        margin: 0.5em 0 3em 0;
+        font-size: 1.3em;
         line-height: 1em;
-      }
-      p {
-        font-size: 1.2em;
       }
       a {
         color: #e86701;
       }
       pre {
-        position: absolute; 
-        top: 0; 
-        bottom: 0; 
-        left: 20%; 
-        margin: auto; 
-        padding: 10em 5em 0 5em;
+        position: fixed;
+        bottom: 10%;
+        left: 40%;
+        overflow: hidden;
         z-index: -1;
-        font-family: monospace; 
-        font-size: 0.6em; 
-        line-height: 1em; 
-        color: #e86701; 
+        font-family: monospace;      
+        font-size: 0.2em;
+        line-height: 1.0; 
+        color: #e86701;
+      }
+      @media (min-width: 600px) {
+        body {
+          font-size: 20px;
+        }
       }
     </style>
   </head>
