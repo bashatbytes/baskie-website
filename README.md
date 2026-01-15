@@ -1,1 +1,3 @@
-This repository containt the source code of my personal website.
+# About
+
+This repository contains the source code of my personal website.
